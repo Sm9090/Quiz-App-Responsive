@@ -12,7 +12,7 @@ function QuizApp() {
   const [score, setScore] = useState(0)
   const [shuffleAnswer, setShuffleAnswer] = useState([])
   const [quizEnded, setQuizEnded] = useState(false)
-  const [timer, setTimer] = useState(120)
+  const [timer, setTimer] = useState(480)
   const [progressValue, setProgressValue] = useState(0)
   const [quizStart, setQuizStart] = useState(true)
   const [rendering, setrendering] = useState(false)
@@ -115,7 +115,7 @@ function QuizApp() {
     setScore(0)
     setSelectedAnswer(null)
     setCurrentIndex(0)
-    setTimer(120)
+    setTimer(480)
     setProgressValue(0)
     fetchQuestions()
 
@@ -162,7 +162,7 @@ function QuizApp() {
     setScore(0)
     setSelectedAnswer(null)
     setCurrentIndex(0)
-    setTimer(120)
+    setTimer(480)
     setProgressValue(0)
     fetchQuestions()
   }
